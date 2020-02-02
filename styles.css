@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background-image: url(https://www.designyourway.net/diverse/darkpat/wallpaper_800x600_1333.jpg);
+}
+
+hr {
+  width: 25%;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-top: 0.5%;
+  color: #fff;
+  margin-top: 1%;
+  margin-bottom: 1.5%;
+}
+
+.top-text {
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.bottom-text {
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.top-text,
+.bottom-text {
+  font-family: Impact, sans-serif;
+  color: #fff;
+  text-shadow: #000 0px 0px 6px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+}
+
+.canvas-div {
+  position: relative;
+  display: inline-block;
+  margin: 3%;
+}
+
+.labels {
+  font-family: Raleway;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  pointer-events: none;
+  width: 10em;
+  padding-top: 2%;
+  margin-top: 2%;
+}
+
+.inputs {
+  width: 60%;
+  display: block;
+  margin: auto;
+  height: 20px;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+  text-align: center;
+}
+
+#submit {
+  margin-top: 1%;
+  margin-right: 3%;
+  float: right;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 14px;
+  background-color: rgb(5, 99, 99);
+  border-radius: 2%;
+}
+
+#submit:hover {
+  background-color: #083637;
+}
+
+#title {
+  padding-top: 1%;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+  color: rgb(169, 213, 103);
+}
+
+#form-header {
+  background-color: #3f4f60;
+  box-shadow: 2px 1px 1px black;
+  padding-bottom: 3%;
+  position: relative;
+  float: left;
+  clear: left;
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+#form {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#container {
+  margin: auto;
+  text-align: center;
+}
+
+:placeholder-shown {
+  text-align: center;
+}
+
+img:hover {
+  background-color: #000;
+  opacity: 0.3;
+  border-radius: 30px;
+}
